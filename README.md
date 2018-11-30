@@ -9,15 +9,17 @@
 ## Overview
 
 The purpose of this project is to provide a faster way to visualize
-data than (repeatedly) importing data into Excel and creating a chart.  
-This will save me time!
+data than (repeatedly) importing data into Excel and creating a 
+chart.  This will save me time!
 
-The simplest way to see this working is in the Jupyter Notebook.
+The simplest way to see this working is in the Jupyter Notebook (still under development).
 [./notebooks/01_plot_unique_ips.ipynb](./notebooks/01_plot_unique_ips.ipynb)
+
+[http://colab.research.google.com/github/BIOF309/group-project-marie_gallagher_final_project/blob/master/notebooks/01_plot_unique_ips.ipynb](http://colab.research.google.com/github/BIOF309/group-project-marie_gallagher_final_project/blob/master/notebooks/01_plot_unique_ips.ipynb)
 
 ## Gory details
 
-- Development environment: Anaconda Distribution, JetBrains PyCharm and Jupyter Notebooks on Windows 10
+Development environment: Anaconda Distribution, JetBrains PyCharm and Jupyter Notebooks on Windows 10
 
 Project Organization
 ------------
