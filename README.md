@@ -1,4 +1,4 @@
-﻿# Quickly Detecting Anomalies in Web site traffic
+# Quickly Detecting Anomalies in Web site traffic
 
 ---
 
@@ -13,9 +13,12 @@ data than (repeatedly) importing data into Excel and creating a
 chart.  This will save me time!
 
 The simplest way to see this working is in the Jupyter Notebook (still under development).
-[./notebooks/01_plot_unique_ips.ipynb](./notebooks/01_plot_unique_ips.ipynb)
 
-[http://colab.research.google.com/github/BIOF309/group-project-marie_gallagher_final_project/blob/master/notebooks/01_plot_unique_ips.ipynb](http://colab.research.google.com/github/BIOF309/group-project-marie_gallagher_final_project/blob/master/notebooks/01_plot_unique_ips.ipynb)
+GitHub: [./notebooks/01_plot_unique_ips.ipynb](./notebooks/01_plot_unique_ips.ipynb)
+
+Binder: [https://mybinder.org/v2/gh/BIOF309/group-project-marie_gallagher_final_project/master?filepath=notebooks/01_plot_unique_ips.ipynb](https://mybinder.org/v2/gh/BIOF309/group-project-marie_gallagher_final_project/master?filepath=notebooks/01_plot_unique_ips.ipynb)
+
+Google Colaboratory: [http://colab.research.google.com/github/BIOF309/group-project-marie_gallagher_final_project/blob/master/notebooks/01_plot_unique_ips.ipynb](http://colab.research.google.com/github/BIOF309/group-project-marie_gallagher_final_project/blob/master/notebooks/01_plot_unique_ips.ipynb)
 
 ## Gory details
 
