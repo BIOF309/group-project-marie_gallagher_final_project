@@ -12,13 +12,19 @@ The purpose of this project is to provide a faster way to visualize
 data than (repeatedly) importing data into Excel and creating a 
 chart.  This will save me time!
 
-The simplest way to see this working is in the Jupyter Notebook (still under development).
+The most reliable way to see this working is to download or clone the
+[BIF309/group-project-marie_gallagher_final_project GitHub repository](https://github.com/BIOF309/group-project-marie_gallagher_final_project) 
+and open 
+[./notebooks/01_plot_unique_ips.ipynb](./notebooks/01_plot_unique_ips.ipynb) 
+(still under development) in Jupyter Notebook or Jupyter Lab.
 
-GitHub: [./notebooks/01_plot_unique_ips.ipynb](./notebooks/01_plot_unique_ips.ipynb)
+*How do you make Colaboratory find the data files???*
 
-Binder: [https://mybinder.org/v2/gh/BIOF309/group-project-marie_gallagher_final_project/master?filepath=notebooks/01_plot_unique_ips.ipynb](https://mybinder.org/v2/gh/BIOF309/group-project-marie_gallagher_final_project/master?filepath=notebooks/01_plot_unique_ips.ipynb)
+Google Colaboratory: [http://colab.research.google.com/github/BIOF309/group-project-marie_gallagher_final_project/blob/master](http://colab.research.google.com/github/BIOF309/group-project-marie_gallagher_final_project/blob/master)
 
-Google Colaboratory: [http://colab.research.google.com/github/BIOF309/group-project-marie_gallagher_final_project/blob/master/notebooks/01_plot_unique_ips.ipynb](http://colab.research.google.com/github/BIOF309/group-project-marie_gallagher_final_project/blob/master/notebooks/01_plot_unique_ips.ipynb)
+*How do you make Binder import pandas???*
+
+Binder: [https://mybinder.org/v2/gh/BIOF309/group-project-marie_gallagher_final_project/master](https://mybinder.org/v2/gh/BIOF309/group-project-marie_gallagher_final_project/master)
 
 ## Gory details
 
