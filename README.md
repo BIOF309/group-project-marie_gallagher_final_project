@@ -18,13 +18,22 @@ and open
 [./notebooks/01_plot_unique_ips.ipynb](./notebooks/01_plot_unique_ips.ipynb) 
 (still under development) in Jupyter Notebook or Jupyter Lab.
 
-*How do you make Colaboratory find the data files???*
+*How do you make Colaboratory find the data files???* 
+
+I don't think this is easy to do. You would have to host the files and pass each url to `read_csv()` or include the files in google drive in connection with your notebook.  
 
 Google Colaboratory: [http://colab.research.google.com/github/BIOF309/group-project-marie_gallagher_final_project/blob/master](http://colab.research.google.com/github/BIOF309/group-project-marie_gallagher_final_project/blob/master)
 
-*How do you make Binder import pandas???*
+*How do you make Binder import pandas???* 
+
+This is easy. Just include pandas in your `requirements.txt` file. I will add it for you.
 
 Binder: [https://mybinder.org/v2/gh/BIOF309/group-project-marie_gallagher_final_project/master](https://mybinder.org/v2/gh/BIOF309/group-project-marie_gallagher_final_project/master)
+
+Notebook specific links:
+- Google Colab [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BIOF309/group-project-marie_gallagher_final_project/blob/master/notebooks/01_plot_unique_ips.ipynb)
+- Jupyter Lab [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BIOF309/group-project-marie_gallagher_final_project/master?urlpath=lab/tree/notebooks/01_plot_unique_ips.ipynb)
+- Jupyter Notebook [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BIOF309/group-project-marie_gallagher_final_project/master?filepath=notebooks/01_plot_unique_ips.ipynb)
 
 ## Gory details
 
