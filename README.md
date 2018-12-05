@@ -18,6 +18,8 @@ and open
 [./notebooks/01_plot_unique_ips.ipynb](./notebooks/01_plot_unique_ips.ipynb) 
 (still under development) in Jupyter Notebook or Jupyter Lab.
 
+Alternate repository: [MarieGallagher/group-project-marie_gallagher_final_project GitHub repository](https://github.com/MarieGallagher/group-project-marie_gallagher_final_project) 
+
 *How do you make Colaboratory find the data files???* 
 
 I don't think this is easy to do. You would have to host the files and pass each url to `read_csv()` or include the files in google drive in connection with your notebook.  
@@ -32,7 +34,7 @@ Notebook specific links in BIOF309/group-project-marie_gallagher_final_project:
 - Jupyter Notebook [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BIOF309/group-project-marie_gallagher_final_project/master?filepath=notebooks/01_plot_unique_ips.ipynb)
 
 Notebook specific links in MarieGallagher/group-project-marie_gallagher_final_project:
-- Google Colab [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarieGallgher/group-project-marie_gallagher_final_project/blob/master/notebooks/01_plot_unique_ips.ipynb)
+- Google Colab [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarieGallagher/group-project-marie_gallagher_final_project/blob/master/notebooks/01_plot_unique_ips.ipynb)
 - Jupyter Lab [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MarieGallagher/group-project-marie_gallagher_final_project/master?urlpath=lab/tree/notebooks/01_plot_unique_ips.ipynb)
 - Jupyter Notebook [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MarieGallagher/group-project-marie_gallagher_final_project/master?filepath=notebooks/01_plot_unique_ips.ipynb)
 
