@@ -47,14 +47,14 @@ Project Organization
 
     ├── LICENSE
     ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   └── raw            <- The original, immutable data dump.
     │
     ├── docs               <- To do: Add instructions for how to run the notebook.
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    │   │                     the creator's initials, and a short `-` delimited description, e.g.
+    │   │                     `1.0-jqp-initial-data-exploration`.
+    │   └── data
+    │       └── raw        <- The original, immutable data dump.
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment
     │
