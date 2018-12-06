@@ -16,33 +16,33 @@ The most reliable way to see this working is to download or clone the
 [BIOF309/group-project-marie_gallagher_final_project GitHub repository](https://github.com/BIOF309/group-project-marie_gallagher_final_project) 
 and open 
 [./notebooks/01_plot_unique_ips.ipynb](./notebooks/01_plot_unique_ips.ipynb) 
-(still under development) in Jupyter Notebook or Jupyter Lab.
+in Jupyter Notebook or Jupyter Lab.
 
 Alternate repository: [MarieGallagher/group-project-marie_gallagher_final_project GitHub repository](https://github.com/MarieGallagher/group-project-marie_gallagher_final_project) 
 
 *How do you make Colaboratory find the data files???* 
 
-I don't think this is easy to do. You would have to host the files and pass each url to `read_csv()` or include the files in google drive in connection with your notebook.  
+I don't think this is easy to do. You would have to host the files and pass each url to `read_csv()` or include the files in google drive in connection with your notebook.  (Thanks, Martin!  --Marie)
 
 *How do you make Binder import pandas???* 
 
-This is easy. Just include pandas in your `requirements.txt` file. I will add it for you. (Thanks, Martin!  --Marie)
+This is easy. Just include pandas in your `requirements.txt` file. I will add it for you. (Thanks again, Martin!  --Marie)
 
 Notebook specific links in BIOF309/group-project-marie_gallagher_final_project:
 - Google Colab [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BIOF309/group-project-marie_gallagher_final_project/blob/master/notebooks/01_plot_unique_ips.ipynb)
 - Jupyter Lab [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BIOF309/group-project-marie_gallagher_final_project/master?urlpath=lab/tree/notebooks/01_plot_unique_ips.ipynb)
 - Jupyter Notebook [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BIOF309/group-project-marie_gallagher_final_project/master?filepath=notebooks/01_plot_unique_ips.ipynb)
 
-Notebook specific links in MarieGallagher/group-project-marie_gallagher_final_project:
+Notebook specific links in alternate MarieGallagher/group-project-marie_gallagher_final_project:
 - Google Colab [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarieGallagher/group-project-marie_gallagher_final_project/blob/master/notebooks/01_plot_unique_ips.ipynb)
 - Jupyter Lab [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MarieGallagher/group-project-marie_gallagher_final_project/master?urlpath=lab/tree/notebooks/01_plot_unique_ips.ipynb)
 - Jupyter Notebook [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MarieGallagher/group-project-marie_gallagher_final_project/master?filepath=notebooks/01_plot_unique_ips.ipynb)
 
 ## Gory details
 
-Development environment: Anaconda Distribution, JetBrains PyCharm and Jupyter Notebooks on Windows 10
+Development environment: Anaconda Distribution, JetBrains PyCharm and Jupyter Lab/Notebooks on Windows 10
 
-Project Organization (under construction)
+Project Organization
 ------------
 
     ├── LICENSE
@@ -50,32 +50,12 @@ Project Organization (under construction)
     ├── data
     │   └── raw            <- The original, immutable data dump.
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+    ├── docs               <- To do: Add instructions for how to run the notebook.
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
     │                         the creator's initials, and a short `-` delimited description, e.g.
     │                         `1.0-jqp-initial-data-exploration`.
     │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
+    ├── requirements.txt   <- The requirements file for reproducing the analysis environment
     │
     └── THE END
